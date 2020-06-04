@@ -1,0 +1,19 @@
+{
+  "name": "dr-server",
+  "version": "1.0.0",
+  "description": "find best server",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 6000 || true"
+  },
+  "author": "Ravi Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.2.0"
+  }
+}
